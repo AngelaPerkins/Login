@@ -1,0 +1,51 @@
+
+/*Container*/
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px;
+    border: 1 px solid black;
+    margin-top: 50px;
+    
+}
+/*Login Form*/
+.form{
+    display: flex;
+    flex-direction:column;
+    width: 50%;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 10px 10px gray;
+    
+       
+}
+h2{
+    font-size: 25px;
+    margin-top: 30px;
+}
+.box{
+    padding:12px;
+    width: 65%;
+    margin:15px;
+    border:1 px solid black ;
+    outline: none;
+    border-radius: 20px;
+    
+}
+#submit{
+    padding: 12px 30px;
+    width: 40%;
+    background-color:black;
+    color: white;
+    border: white;
+    border-radius: 20px;
+    margin: 40px;
+  
+    
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: blue;
+}
