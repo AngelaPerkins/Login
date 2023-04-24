@@ -1,19 +1,18 @@
 
+
 /*Container*/
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 900px;
-    border: 1 px solid black;
-    margin-top: 50px;
+    height: 600px;
     
 }
 /*Login Form*/
 .form{
     display: flex;
     flex-direction:column;
-    width: 50%;
+    width: 25%;
     align-items: center;
     background-color: whitesmoke;
     border-radius: 20px;
